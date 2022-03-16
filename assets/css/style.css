@@ -7,7 +7,13 @@ body {
     opacity: 3;
     
   }
-
+.subtitle {
+  width: 1309px ;
+  height: 200px;
+  flex-wrap: wrap;
+ 
+  
+}
   header {
     display: flex;
     justify-content: space-between;
@@ -25,6 +31,8 @@ body {
   h2 {
     margin: 2% 0;
     font-size: 180%;
+    border: #181a17;
+    border-width: 2;
   }
   
   nav ul {
@@ -49,10 +57,12 @@ body {
     max-width: 1200px;
     margin: 2% auto;
   }
-  
-  section {
-    flex: 1 1 0;
-    padding-right: 5%;
+  .image{
+    flex: 1 0 0;
+    text-align: right;
+    border-style: solid;
+    border-width: 2px;
+    border-color: red;
   }
   
   article {
