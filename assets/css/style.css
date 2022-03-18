@@ -7,8 +7,12 @@ body {
     opacity: 3;
     
   }
+ .side-heading{
+  scroll-behavior: smooth
+ } 
+
 .subtitle {
-  width: 1309px ;
+  width: 310px ;
   height: 200px;
   flex-wrap: wrap;
  
@@ -31,7 +35,7 @@ body {
   h2 {
     margin: 2% 0;
     font-size: 180%;
-    border: #181a17;
+    border: #e00f0f;
     border-width: 2;
   }
   
@@ -58,11 +62,11 @@ body {
     margin: 2% auto;
   }
   .image{
-    flex: 1 0 0;
+    flex: .5 0 0;
     text-align: right;
     border-style: solid;
     border-width: 2px;
-    border-color: red;
+    border-color: rgb(255, 145, 0);
   }
   
   article {
@@ -100,11 +104,8 @@ body {
         main{
           flex-direction: column;
         }
-        
-      aside {
-        width: 100%;
-        text-align: center;
-      }
+    
+      
     }
   }
 }
