@@ -12,7 +12,9 @@ body {
   }
   #About-Me {
     display: flex;
-  }
+    gap: 40px;
+    }
+
  .side-heading{
   scroll-behavior: smooth
  } 
@@ -21,6 +23,48 @@ display: flex;
 flex-wrap: wrap;
 gap: 20px;
 }
+.homework1 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  }
+.homework1-item{
+  flex-basis: calc(50% - 20px);
+  height: 400px;
+  background-color: #af6632;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transform: scale(1);
+  transition: transform 0.3s;
+  border:2px solid blue;
+  border-radius: 30px;
+  overflow: hidden;
+  display:flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  position:relative;
+
+}
+.homework1-item span{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 2;
+  background: linear-gradient(transparent, rgba(255,255,255,.5));
+}
+.homework1-item h3{ 
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 24px;
+  color: darkblue;
+ position: relative;
+ z-index: 20;
+}
+.homework1-item:hover{
+  transform: scale(1.2);}
+  
 .project-item {
   flex-basis: calc(50% - 14px);
   height: 250px;
@@ -93,7 +137,7 @@ gap: 20px;
   h2 {
     margin: 2% 0;
     font-size: 180%;
-    border: #e00f0f;
+   color: rgb(255, 0, 212);
     border-width: 2;
   }
   
@@ -126,7 +170,7 @@ gap: 20px;
   }
   
   article {
-    border-bottom: 1px solid #af6632;
+    border-bottom: 1px solid #5332af;
   }
   
   article p {
@@ -136,32 +180,7 @@ gap: 20px;
   }
 
   
-  @media screen and (max-width: 768px) {
-    header,
-    main {
-      flex-direction: column;
-    }
-  
-    section {
-      padding-right: 0;
-    }
-  
-    aside {
-      width: 100%;
-      text-align: center;
-    }
-    @media screen and (max-width: 354px ) {
-      ul,
-      main{
-        flex-direction: column;
-      }
-      @media screen and (max-width: 284px ) {
-        ul,
-        main{
-          flex-direction: column;
-        }
     
       
-    }
-  }
-}
+    
+
