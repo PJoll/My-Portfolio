@@ -122,16 +122,16 @@ gap: 20px;
   transform: scale(1.2);
 }
 .project1{
-  background-image: url(/assets/images/Vs.jpg);
+  background-image: url(../images/Vs.jpg);
 }
 .project2{
-  background-image: url(/assets/images/Sydney-harbour.jpg);
+  background-image: url(../images/Sydney-harbour.jpg);
 }
 .project3{
-  background-image: url(/assets/images/Warriors.jpg);
+  background-image: url(../images/Warriors.jpg);
 }
 .project4{
-  background-image: url(/assets/images/mouse.jpg);
+  background-image: url(../images/mouse.jpg);
 }
 .subtitle {
   width: 310px ;
