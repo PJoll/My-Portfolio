@@ -7,13 +7,13 @@ The goal of the project is to complete a portfolio which will be a basis documen
 
 -Previous work added to the portfolio
 
-- The portfolio loads presenting the developer's name, a personal photo, an about section and contacts
+-The portfolio loads presenting the developer's name, a personal photo, an about section and contacts
 
 -navigation links are added that scroll to the corrosponding part of the page
 
 -The First piece of worl has a larger image than the rest of the works.
 
-- When the page is resized a responsive layout is presented 
+-When the page is resized a responsive layout is presented 
 
 **Throught the project i learnt the following,**
 
