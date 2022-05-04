@@ -1,86 +1,93 @@
-html{
+html {
   scroll-behavior: smooth;
 }
+
 /*Element selector*/
 body {
-    display: flex;
-    flex-direction: column;
-    line-height: 1.3;
-    height: 100%;
-    background-color:aqua;
-    opacity: 3;
-    
-  }
-  header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: .3%;
-    background-color: #d31620;
-    color: rgb(31, 28, 28);
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  h1 {
-    font-size: 200%;
-  }
-  
-  h2, h4, h5 {
-    margin: 2% 0;
-    font-size: 180%;
-   color: rgb(255, 0, 212);
-    border-width: 2;
-  }
-  
- 
-  
-  main {
-    max-width: 1200px;
-    margin: 2% auto;
-  }
-  
-  
-  article {
-    border-bottom: 1px solid #5332af;
-  }
-  
-  article p {
-    margin: 2% 0;
-    font-size: 110%;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  nav ul {
-    display: flex;
-    justify-content: space-between;
-    min-width: 300px;
-  }
-  
-  nav a {
-    color: #181a17;
-    font-weight: bold;
-    text-decoration: none;
-  }
-  
-  nav a:hover {
-    color: rgb(248, 225, 12);
-  }
-  
-  #About-Me {
-    display: flex;
-    gap: 40px;
-    }
-/*class selector*/
- .side-heading{
-  scroll-behavior: smooth
- } 
-.projects-list {
-display: flex;
-flex-wrap: wrap;
-gap: 20px;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.3;
+  height: 100%;
+  background-color: aqua;
+  opacity: 3;
+
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .3%;
+  background-color: #d31620;
+  color: rgb(31, 28, 28);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 200%;
+}
+
+h2,
+h4,
+h5 {
+  margin: 2% 0;
+  font-size: 180%;
+  color: rgb(255, 0, 212);
+  border-width: 2;
 }
 
 
-  
+
+main {
+  max-width: 1200px;
+  margin: 2% auto;
+}
+
+
+article {
+  border-bottom: 1px solid #5332af;
+}
+
+article p {
+  margin: 2% 0;
+  font-size: 110%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  min-width: 300px;
+}
+
+nav a {
+  color: #181a17;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: rgb(248, 225, 12);
+}
+
+#About-Me {
+  display: flex;
+  gap: 40px;
+}
+
+/*class selector*/
+.side-heading {
+  scroll-behavior: smooth
+}
+
+.projects-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+
+
 .project-item {
   flex-basis: calc(50% - 14px);
   height: 250px;
@@ -90,59 +97,97 @@ gap: 20px;
   background-repeat: no-repeat;
   transform: scale(1);
   transition: transform 0.3s;
-  border:2px solid blue;
+  border: 2px solid blue;
   border-radius: 30px;
   overflow: hidden;
-  display:flex;
+  display: flex;
   align-items: flex-end;
   justify-content: flex-end;
-  position:relative;
+  position: relative;
 
 }
-.project-item:not(.project1){
+
+.project-item:not(.project1) {
   transform: scale(0.6)
 }
-.project-item span{
+
+.project-item span {
   position: absolute;
   left: 0;
   right: 0;
   top: 0;
   bottom: 0;
   z-index: 2;
-  background: linear-gradient(transparent, rgba(255,255,255,.5));
+  background: linear-gradient(transparent, rgba(255, 255, 255, .5));
 }
-.project-item h3{ 
+
+.project-item h3 {
   font-family: 'Times New Roman', Times, serif;
   font-size: 24px;
   color: darkblue;
- position: relative;
- z-index: 20;
+  position: relative;
+  z-index: 20;
 }
-.project-item:hover{
+
+.project-item:hover {
   transform: scale(1.2);
 }
-.project1{
+
+.project1 {
   background-image: url(../images/Vs.jpg);
 }
-.project2{
+
+.project2 {
   background-image: url(../images/Sydney-harbour.jpg);
 }
-.project3{
+
+.project3 {
   background-image: url(../images/Warriors.jpg);
 }
-.project4{
+
+.project4 {
   background-image: url(../images/mouse.jpg);
 }
-.subtitle {
-  width: 310px ;
-  flex-wrap: wrap;
- }
 
- @media screen and (max-width: 480px) {
-  
+.subtitle {
+  width: 310px;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 992px) {
+  .side-heading{
+    width: 100%;
   }
-  @media screen and (max-width: 576px) {
+
+  #refactor {
+    width: 100%;
+  }
+
+  @media screen and (max-width: 768px) {
     .side-heading {
-      flex-wrap: wrap;
+      width: 100%;
+    }
+
+    #refactor {
+      width: 100%;
+    }
+
+    @media screen and (max-width: 576px) {
+      .side-heading {
+        width: 100%;
+      }
+
+      #refactor {
+        width: 100%;
+      }
     }
   }
+  @media screen and (max-width: 300px) {
+    .side-heading {
+      width: 100%;
+    }
+
+    #refactor {
+      width: 100%;
+    }
+}}
