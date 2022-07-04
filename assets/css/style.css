@@ -8,7 +8,7 @@ body {
   flex-direction: column;
   line-height: 1.3;
   height: 100%;
-  background-color: aqua;
+  background-color: rgb(255, 255, 255);
   opacity: 3;
 
 }
@@ -134,19 +134,19 @@ nav a:hover {
 }
 
 .project1 {
-  background-image: url(../images/Vs.jpg);
+  background-image: url(../images/MovieDex.png);
 }
 
 .project2 {
-  background-image: url(../images/Sydney-harbour.jpg);
+  background-image: url(../images/Note\ Taker\ -.png);
 }
 
 .project3 {
-  background-image: url(../images/Warriors.jpg);
+  background-image: url(../images/Password-generator.png);
 }
 
 .project4 {
-  background-image: url(../images/mouse.jpg);
+  background-image: url(../images/Project\ 2.png);
 }
 
 .subtitle {
